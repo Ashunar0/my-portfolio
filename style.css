@@ -32,10 +32,22 @@
   width: 100%;
 }
 
+.name {
+  display: flex;
+  justify-content: flex-end; /*左詰め*/
+  align-items: center;
+  gap: 30px; /*間隔調整*/
+}
+
 .introduction h1 {
   font-family: "Noto Serif JP", sans-serif;
   font-size: 3em;
   margin-left: 50px;
+  margin-top: 50px;
+}
+
+.text h2 {
+  font-size: 4em;
 }
 
 .introduction .content {
