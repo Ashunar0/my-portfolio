@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/earlyaccess/kokoro.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
@@ -16,35 +17,76 @@
       <p>SNS</p>
     </header>
 
-    <section class="top-image">
-      <p><img src="images/img3.jpeg" alt="北欧風インテリア" /></p>
+    <section>
+      <p>
+        <img class="top-image" src="images/img1.jpg" alt="北欧風インテリア" />
+      </p>
     </section>
 
     <section class="introduction">
-      <h1>Introduction</h1>
+      <h1 class="section-title">Introduction</h1>
       <div class="content">
         <div class="text">
           <div class="name">
             <h2>川野辺 旭</h2>
             <h4>かわのべ あさひ</h4>
           </div>
-          <p>大学</p>
-          <p>早稲田大学 先進理工学部 電気・情報生命工学科</p>
-          <p>出身地</p>
-          <p>東京</p>
-          <p>誕生日</p>
-          <p>10月14日</p>
-          <p>趣味</p>
-          <p>
-            #ドラム #ベース #ヨルシカ #ずとまよ #夜行性 #Mrs.Green Apple
-            #Mr.Children
-          </p>
-          <p>#マンガ #アニメ #ヒロアカ #呪術廻戦 #サマータイムレンダ</p>
-          <p>#ヨルクラ #ガルクラ</p>
+          <div class="university">
+            <p>大学</p>
+            <h3>早稲田大学 先進理工学部 電気・情報生命工学科</h3>
+          </div>
+          <div class="hometown">
+            <p>出身地</p>
+            <h3>東京都 東久留米市</h3>
+          </div>
+          <div class="birthday">
+            <p>誕生日</p>
+            <h3>2002年10月14日</h3>
+          </div>          
         </div>
-        <img src="images/自己紹介.jpg" alt="自己紹介" />
+        <img class="my-image" src="images/自己紹介1.jpg" alt="自己紹介" />
       </div>
     </section>
+
+    <section class="favorite">
+      <h1 class="section-title">Favorite</h1>
+      <div class="image-grid">
+        <div class="image-item">
+          <img src="images\Yorushika_Logo.jpg" alt="img1">
+          <h3>ヨルシカ</h3>
+          <p>「雨とカプチーノ」「晴る」がよすぎる</p>
+        </div>
+        <div class="image-item">
+          <img src="images/mrs_green_apple_logo.jpg" alt="img2">
+          <h3>Mrs.GREEN APPLE</h3>
+          <p>すべてがむずい</p>
+        </div>
+        <div class="image-item">
+          <img src="images/my_hero_academia_logo.jpg" alt="img3">
+          <h3>僕のヒーローアカデミア</h3>
+          <p>この前最終回で超絶ロス</p>
+        </div>
+        <div class="image-item">
+          <img src="images/yorukura-eye2.jpg" alt="img4">
+          <h3>夜のクラゲは泳げない</h3>
+          <p>全人類見るべき。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p>Follow me on:</p>
+        <ul>
+          <li><a href="https://twitter.com/yourprofile" target="_blank">Twitter</a></li>
+          <li><a href="https://instagram.com/yourprofile" target="_blank">Instagram</a></li>
+          <li><a href="https://facebook.com/yourprofile" target="_blank">Facebook</a></li>
+          <!-- 他のリンク -->
+        </ul>
+      </div>
+    </footer>
+</body>
 
     <script src="main.js"></script>
   </body>
